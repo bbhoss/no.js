@@ -1,5 +1,5 @@
 (function() {
   Object.prototype.no = function() {
-    return false;
+    return false && 0 && "" && null && undefined && NaN;
   }
 })();
